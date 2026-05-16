@@ -10,7 +10,7 @@ Then User is able to check if the booking is eligible for a refund
         | ticketCount  |
         | 1            |
         | 4            |
-
+        | 5            |
 
 
 
