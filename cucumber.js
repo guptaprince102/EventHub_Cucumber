@@ -7,7 +7,8 @@ module.exports = {
     requireModule: [
       "ts-node/register"
     ],
-    format: ["progress"],
-    paths: ["features/*.feature"]
+    format: ["progress-bar", "html:test-results/cucumber-report.html"],
+    paths: ["features/*.feature"],
+    publishQuiet: true
   }
 };

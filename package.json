@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "regression": "npx cucumber-js --exit",
-    "regression-headed": "HEADLESS=false npx cucumber-js --exit"
+    "regression-headed": "HEADLESS=false npx cucumber-js --exit",
+    "regression-service": "npx cucumber-js --exit --require-module ts-node/register",
+    "regression-service-headed": "HEADLESS=false npx cucumber-js --exit --require-module ts-node/register"
   },
   "keywords": [],
   "author": "",
